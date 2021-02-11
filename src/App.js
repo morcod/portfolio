@@ -9,7 +9,7 @@ import TitleMessage from  "./components/title-message/title-message.component";
 import About from  "./pages/about/about.component";
 import Skills from  "./pages/skills/skills.component";
 import Experience from  "./pages/experience/experience.component";
-
+import ProjectsTimeline from "./components/projects-timeline/projects-timeline.component";
 import './App.css';
 
 const App = () => {
@@ -49,6 +49,14 @@ const App = () => {
               <Fade duration={500}>
                 <hr/>
               <Experience/>
+              </Fade>
+            </Container>
+        </div>
+        <div>
+        <Container className="container-box rounded">
+              <Fade duration={500}>
+                <hr/>
+                <ProjectsTimeline/>
               </Fade>
             </Container>
         </div>
