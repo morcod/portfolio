@@ -35,7 +35,7 @@ const MyCarousel = () => {
     
   </Carousel.Item>
 </Carousel>
-<ScrollDown/>
+{/* <ScrollDown/> */}
         </div>
     )
 }

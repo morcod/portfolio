@@ -17,6 +17,7 @@ const MyScroll = styled.div`
     cursor: pointer;
     transform: rotate(90deg);
   }
+ 
 `;
 
 
